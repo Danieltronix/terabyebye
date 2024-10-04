@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0d0d0d;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    color: #00ff00;
+    font-weight: 800;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0affd9;
+    text-shadow: 0 0 5px #0affd9;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #00ff00, #0affd9);
+    color: black;
+    font-size: 1.5rem;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-shadow: 0 0 20px #000;
+}
+
+.hero button {
+    background-color: #00ff00;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #00ff00;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background-color: #0affd9;
+    box-shadow: 0 0 20px #0affd9;
+}
+
+.content-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.content-section h3 {
+    font-size: 2rem;
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+.content-section p, .content-section ul {
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d0d0d;
+    color: #00ff00;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
